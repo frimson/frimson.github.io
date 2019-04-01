@@ -1,0 +1,65 @@
+.main{
+    border: solid 1px grey;
+    padding: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: grey;
+}
+body{
+    padding: 0px 15px;
+    font-family: Arial;
+}
+.pics{
+    padding: 0px;
+ }
+h2{
+    border-bottom: solid 1px grey;
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+h1{
+    border-bottom: solid 1px #3583b1;
+    text-align: center;
+    font-size: 40pt;
+    color: #3583b1;
+}
+h3{
+    border-bottom: solid 1px grey;
+}
+p{
+    font-size: small;
+}
+.footer{
+    font-size: small;
+    padding: 20px 0px;
+}
+.bottom{
+    padding: 15px;
+}
+#num{
+    color: black;
+    font-weight: bold;
+}
+.sale{
+    background: rgba(255, 0, 0, 0.37);
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 60px;
+}
+
+.saletext{
+    color: white;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 30px;
+}
