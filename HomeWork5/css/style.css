@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: MyriadPro;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    background-image: url(header__forest.jpg);
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+}
+
+.HeaderHelper{
+    width: 66%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 400px;
+    align-content: space-between;
+}
+
+.header__content_navbar{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+
+}
+
+.header__content_navbar__logo{
+    display: inline-flex;
+}
+
+.header__content_navbar_text{
+    font-size: 30px;
+    color: #1a99a3;
+    font-weight: 100;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.header__content_navbar__navigation{
+    font-weight: bold;
+    display: inline;
+    color: white;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.header__content_navbar__navigation-button{
+    margin-right: 7px;
+}
+
+.header__content_navbar__navigation-button:hover{
+    color: #1a99a3;
+}
+
+.header__content_main{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+
+.header__content_main_h1{
+    margin: 15px;
+    font-size: 0.9em;
+    color: white;
+
+}
+
+.header__content_main_h1-line{
+    border-bottom: .1em solid #1a99a3;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.header__content_main_text{
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+    margin: 15px;
+    position: relative;
+    word-spacing: 4px;
+    line-height: 1.5;
+}
+
+.header__content_button{
+    border: solid 1px #1a99a3;
+    font-weight: bold;
+    padding: 15px;
+    width: 11%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: #1a99a3;
+    transition: transform .5s;
+}
+
+.header__content_button:hover{
+    background: #1a99a3;
+    box-shadow: 3px 3px 3px 3px black;
+    transform: scale(1.15);
+    color: white;
+}
